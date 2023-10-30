@@ -1,1 +1,21 @@
-
+{
+  "name": "ReelsBot",
+  "description": "A USERBOT HOSTER REMPO",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/Moca96/ReelsBot/edit/main/app.json",
+  "env": {
+    "TOKEN": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    }
+  }
+}
